@@ -77,7 +77,7 @@ Follow these steps to set up the project on your local machine:
     ```plaintext
     intro_django/
     ├── manage.py         # Command-line utility for interacting with Django
-    ├── intro_django/
+    ├── intro_django_proj/
     │   ├── __init__.py   # Indicates that this directory is a Python package
     │   ├── settings.py   # Configuration settings for the project
     │   ├── urls.py       # URL definitions for routing requests
