@@ -7,10 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro to Django</title>
     <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
-    
-  
-
 </head>
+
 <body>
 
     <h1> Welcome to Django Intro </h1>
@@ -26,6 +24,12 @@
 
    <img src="{% static 'images/dlogo.png' %}" alt="Django Logo">
 
+
+   <a href="{% url 'contact-us' %}">
+
+    <h3 class="but" > Click to contact us </h3>
+   </a>
+ 
 
 
   <script src="{% static 'js/script.js'%}"> </script>
