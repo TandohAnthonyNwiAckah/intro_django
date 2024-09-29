@@ -1,16 +1,33 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tours</title>
+    <title>Intro to Django</title>
+    <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
+    
+  
+
 </head>
 <body>
-    <h1>Tours Schedules </h1>
-    <ul>
+
+    <h1> Welcome to Django Intro </h1>
+    <p>Django makes it easier to build better web apps more quickly with less code!</p>
+
+
+    <h3>Tour Schedules App </h3>
+
         {% for tour in tours %}
         <li>{{tour}}</li>
         {% endfor %} 
-    </ul>
+
+
+   <img src="{% static 'images/dlogo.png' %}" alt="Django Logo">
+
+
+
+  <script src="{% static 'js/script.js'%}"> </script>
 </body>
 </html>
